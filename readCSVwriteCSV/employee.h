@@ -17,8 +17,8 @@ public:
 	void CloseFiles();
 
 protected:
-	ifstream empin;
-	ofstream empout;
+	ifstream empIn;
+	ofstream empOut;
 	vector<string> temp;
 	vector<vector<string>> emp;
 };
